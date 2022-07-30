@@ -1,0 +1,15 @@
+.middle-content {
+  margin-top: 60px;
+  text-align: center;
+}
+.grid-middle {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+.middle-item img {
+  width: 400px;
+  height: 400px;
+  margin-top: 45px;
+}
