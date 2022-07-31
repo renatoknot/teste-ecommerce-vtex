@@ -16,3 +16,13 @@
   width: 400px;
   height: 400px;
 }
+
+.list-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+}
