@@ -74,12 +74,6 @@ setTimeout(() => {
         settings: {
           slidesToShow: 4,
           slidesToScroll: 3,
-          // dots: true,
-          // infinite: true,
-          // arrows: true,
-          // centerMode: true,
-          // centerPadding: "60px",
-          // adaptiveHeight: true,
         },
       },
     ],
