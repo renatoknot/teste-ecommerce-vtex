@@ -30,6 +30,8 @@
 
 Simple page, consuming Vtex API.
 
+[Link to the Project](https://renatodev-ecommerce-vtex.netlify.app/)
+
 ## :white_check_mark: Requirements
 
 Before starting, you'll need to have the following tools installed on your machine:
