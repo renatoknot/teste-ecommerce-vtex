@@ -17,6 +17,12 @@ $(document).ready(function () {
   });
 });
 
+const getProducts = async () => {
+  const response = await fetch("./products.json");
+  const products = await response.json();
+  return products;
+};
+
 const renderElements = (products) => {
   const listProducts = document.querySelector(".list-products");
 
@@ -51,12 +57,7 @@ const renderElements = (products) => {
   });
 };
 
-const getProducts = () =>
-  fetch("./products.json")
-    .then((response) => response.json())
-    .then((products) => renderElements(products));
-
-getProducts();
+getProducts().then((products) => renderElements(products));
 
 setTimeout(() => {
   $(".list-products").slick({
